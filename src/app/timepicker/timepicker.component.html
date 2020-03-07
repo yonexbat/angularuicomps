@@ -1,0 +1,5 @@
+<input 
+    [ngClass]= "{'invalid': !isValid}"
+    type="text" 
+    [value]="timePickerVal" 
+    (input)="valueChanged($event)">
